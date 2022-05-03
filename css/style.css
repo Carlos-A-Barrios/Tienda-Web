@@ -30,11 +30,14 @@ h5 {
 }
 
 .header__nav ul li {
-  display: inline-block;
   margin-left: 1rem;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.nav__list-header {
+  display: flex;
 }
 
 .hero {
