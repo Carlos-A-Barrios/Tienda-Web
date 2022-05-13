@@ -14,7 +14,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1c2126;
+  background-color: map-get($estilos: , color);
 }
 
 .hero__img {
@@ -24,4 +24,24 @@ ul {
 
 .header__nav {
   display: flex;
+}
+
+$estilos: (
+  color: #1c2126,
+);
+
+.boton {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--aceptar {
+  @extend .boton;
+  background-color: black;
+  color: white;
 }
