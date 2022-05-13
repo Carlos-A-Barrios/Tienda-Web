@@ -11,9 +11,7 @@ ul {
   list-style-type: none;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include flex-space_between-center;
   background-color: map-get($estilos: color);
 }
 
@@ -42,6 +40,11 @@ $estilos: (
 
 .boton--aceptar {
   @extend .boton;
-  background-color: black;
-  color: white;
+  background-color: rgb(36, 217, 48);
+  color: rgb(255, 255, 255);
+}
+@mixin flex-space_between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
