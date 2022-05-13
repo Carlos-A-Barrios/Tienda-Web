@@ -14,7 +14,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: map-get($estilos: , color);
+  background-color: map-get($estilos: color);
 }
 
 .hero__img {
