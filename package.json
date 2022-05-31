@@ -4,17 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss/style.scss css/style.css"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Carlos-A-Barrios/Tienda-Web.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Carlos-A-Barrios/Tienda-Web/issues"
-  },
-  "homepage": "https://github.com/Carlos-A-Barrios/Tienda-Web#readme"
+  "license": "ISC"
 }

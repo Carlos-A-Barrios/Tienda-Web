@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+}
+
+.container-fluid .navbar-brand img {
+  width: 100px;
+  height: 100px;
+}
+
+article .entry-title {
+  min-height: 80px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+article .entry-content img {
+  float: left;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.post-159 .entry-content ul li {
+  list-style: disc;
+}
+
+form input {
+  cursor: pointer;
+}
+
+.form-contacto {
+  max-width: 600px;
+  padding-bottom: 20px;
+}
+
+.site-main .titular-comic {
+  text-align: center;
+  font-size: 35px;
+  margin: 30px 0px 30px 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body .card-title {
+  float: left;
+}
+
+.columns-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

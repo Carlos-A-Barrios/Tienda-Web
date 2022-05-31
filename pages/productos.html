@@ -26,7 +26,7 @@
     <!------------HEADER------------>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
           <img src="/imgs/logo__cohete.png" alt="logo" />
         </a>
 
@@ -56,15 +56,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Inicio</a
-              >
+              <a class="nav-link" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pages/nosotros.html">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/pages/productos.html">Productos</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/pages/productos.html"
+                >Productos</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/pages/comoComprar.html"
@@ -79,17 +82,45 @@
       </div>
     </nav>
     <!------------CONTENIDO------------>
-
     <div class="wrapper">
       <div class="container">
         <div class="row">
+          <div class="col-md-4 widget-area">
+            <aside class="widget woocommerce widget_product_categories">
+              <h3 class="widget-title">Productos</h3>
+              <ul class="product-categories">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Comic Americano</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Comic Europeo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Editorial</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Historieta Nacional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Juegos de Mesa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Libros de Dibujo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Manga</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Merchandising</a>
+                </li>
+              </ul>
+            </aside>
+          </div>
           <div class="col-md content-area">
             <div class="site-main">
               <article class="post-42 page type-page status-publish hentry">
                 <header class="entry-header"></header>
-                <div class="entry-content">
-                  <h3 class="titular-comic">Novedades</h3>
-                </div>
+
                 <div class="row mx-5">
                   <div class="col">
                     <div class="card" style="width: 18rem">
@@ -200,7 +231,6 @@
         </div>
       </div>
     </div>
-
     <!------------FOOTER------------>
     <footer class="bg-dark text-white py-4">
       <div class="container">
@@ -208,20 +238,20 @@
           <!--Menu-->
           <ul class="col-3 listunstyled">
             <li class="font-weight-bold text-uppercase">Navegación</li>
-            <li><a href="index.html" class="text-reset">Inicio</a></li>
+            <li><a href="../index.html" class="text-reset">Inicio</a></li>
             <li>
-              <a href="./pages/nosotros.html" class="text-reset">Nosotros</a>
+              <a href="/pages/nosotros.html" class="text-reset">Nosotros</a>
             </li>
             <li>
-              <a href="./pages/productos.html" class="text-reset">Productos</a>
+              <a href="/pages/productos.html" class="text-reset">Productos</a>
             </li>
             <li>
-              <a href="./pages/comoComprar.html" class="text-reset"
+              <a href="/pages/comoComprar.html" class="text-reset"
                 >Cómo Comprar</a
               >
             </li>
             <li>
-              <a href="./pages/contacto.html" class="text-reset">Contacto</a>
+              <a href="/pages/contacto.html" class="text-reset">Contacto</a>
             </li>
           </ul>
           <!--Menu-->

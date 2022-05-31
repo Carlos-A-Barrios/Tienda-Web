@@ -4,47 +4,76 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: "Montserrat" sans-serif;
+.wrapper {
+  height: auto;
 }
 ul {
-  list-style-type: none;
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
 }
-.header {
-  @include flex-space_between-center;
-  background-color: map-get($estilos: color);
+.container-fluid {
+  background-color: #ffffff;
+  .navbar-brand {
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
 }
 
-.hero__img {
-  max-width: 200px;
-  max-height: 400px;
+article {
+  .entry-title {
+    min-height: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  .entry-content {
+    img {
+      float: left;
+    }
+  }
 }
-
-.header__nav {
+.row {
   display: flex;
+
+  flex-wrap: wrap;
+}
+.post-159 {
+  .entry-content {
+    ul {
+      li {
+        list-style: disc;
+      }
+    }
+  }
+}
+form {
+  input {
+    cursor: pointer;
+  }
+}
+.form-contacto {
+  max-width: 600px;
+  padding-bottom: 20px;
 }
 
-$estilos: (
-  color: #1c2126,
-);
-
-.boton {
-  width: 200px;
-  height: 50px;
-  background-color: white;
+.site-main {
+  .titular-comic {
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0px 30px 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+}
+.card-body {
   text-align: center;
-  color: black;
-  border-radius: 20px;
-  border: 1px solid black;
+  .card-title {
+    float: left;
+  }
 }
-
-.boton--aceptar {
-  @extend .boton;
-  background-color: rgb(36, 217, 48);
-  color: rgb(255, 255, 255);
-}
-@mixin flex-space_between-center {
+.columns-5 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
